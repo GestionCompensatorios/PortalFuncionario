@@ -139,6 +139,11 @@
         transition: all 0.3s ease;
         box-shadow: 0 4px 12px rgba(231, 76, 60, 0.2);
       }
+      .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
 
       .btn:hover {
         background-color: #c0392b;
@@ -191,22 +196,20 @@
           >Consultar</a
         >
       </div>
-
       <div class="card">
         <div>
-          <div class="icon icon-pay"></div>
-          
-          <h2>Desprendibles</h2>
+          <div class="icon icon-reg"></div>
+          <h2>Sorteo Compensatorios Mes de Abril 2026</h2>
           <p>
-            Accede y descarga tus comprobantes de nómina mensuales de forma
-            segura.
+            Aqui podra consultar el listado de los funcionarios que salen a
+            compensatorio en el mes de abril 2026 segun sorteo.
           </p>
         </div>
         <a
-          href="https://inpecweb.humanoenlinea.co/HumanoEL/Ingresar.aspx?Ent=InpecWeb"
+          href="https://docs.google.com/spreadsheets/d/1TdYrGn2WFCJpgOdfCYBkCqsb0QMy1MJU6Riw-kyyMkM/edit?usp=sharing"
           class="btn"
           target="_blank"
-          >Ver Desprendibles</a
+          >Consultar Planilla</a
         >
       </div>
 
@@ -219,26 +222,43 @@
             mes de mayo.
           </p>
         </div>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdnOX3dsEC2-pQoNlfyDpWCUlYHrOdNAxWG1PdGuwH-C23Ngw/viewform?usp=header"
-          class="btn"
-          target="_blank"
-          >Registrarse Ahora</a
-        >
+
+        <div class="actions">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdnOX3dsEC2-pQoNlfyDpWCUlYHrOdNAxWG1PdGuwH-C23Ngw/viewform?usp=header"
+            class="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Registrarse Ahora
+          </a>
+
+          <a
+            href="https://docs.google.com/spreadsheets/d/1fYReMUxPzjdAw0i4nmEsrFTqvSqRN0t5mT6KC8ZDqgM/edit?usp=sharing"
+            class="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consultar Planilla
+          </a>
+        </div>
       </div>
-        <div class="card">
+
+      <div class="card">
         <div>
-          <div class="icon icon-reg"></div>
-          <h2>Sorteo Compensatorios Mes de Abril 2026</h2>
+          <div class="icon icon-pay"></div>
+
+          <h2>Desprendibles</h2>
           <p>
-            Aqui podra consultar el listado de los funcionarios que salen a compensatorio en el mes de abril 2026 segun sorteo.
+            Accede y descarga tus comprobantes de nómina mensuales de forma
+            segura.
           </p>
         </div>
         <a
-          href="https://docs.google.com/spreadsheets/d/1TdYrGn2WFCJpgOdfCYBkCqsb0QMy1MJU6Riw-kyyMkM/edit?usp=sharing"
+          href="https://inpecweb.humanoenlinea.co/HumanoEL/Ingresar.aspx?Ent=InpecWeb"
           class="btn"
           target="_blank"
-          >Consultar Planilla</a
+          >Ver Desprendibles</a
         >
       </div>
     </div>
